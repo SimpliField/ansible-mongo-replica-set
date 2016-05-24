@@ -11,7 +11,7 @@ Need ansible 2+ and mongodb
 Dependencies
 ------------
 
-There is no dependency
+This module need pymongo
 
 Example Playbook
 ----------------
