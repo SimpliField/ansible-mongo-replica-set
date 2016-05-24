@@ -1,6 +1,6 @@
 galaxy_info:
   author: Sébastien Elet
-  description: Mongo replica set moduld
+  description: MongoDB replica set module
   company: SimpliField
   license: BSD
   min_ansible_version: 2
