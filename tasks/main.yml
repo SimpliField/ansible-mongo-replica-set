@@ -2,7 +2,7 @@
 - name: enable mongodb replicaset
   lineinfile:
     dest: "/etc/mongod.conf"
-    regexp: "^#replSet="
+    regexp: "replSet="
     line: "replSet={{ inventory_hostname }}"
   notify:
   - restart mongodb
