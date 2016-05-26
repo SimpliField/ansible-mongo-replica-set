@@ -3,7 +3,7 @@
   lineinfile:
     dest: "/etc/mongod.conf"
     regexp: "replSet="
-    line: "replSet={{ inventory_hostname }}"
+    line: "replSet={{ mongo_replication_set }}"
   notify:
   - restart mongodb
   tags:
