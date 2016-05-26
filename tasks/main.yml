@@ -9,4 +9,14 @@
   tags:
   - mongo
 
+- name: listen on a lan interface
+  lineinfile:
+    dest: "/etc/mongod.conf"
+    regexp: "bind_ip"
+    line: "bind_ip={{ mongo_interfaces.join(',') }}"
+  notify:
+  - restart mongodb
+  tags:
+  - mongo
+
 - meta: flush_handlers
