@@ -22,7 +22,7 @@ install:
   - printf '[defaults]\nroles_path=../' >ansible.cfg
 
   # Install dependencies
-  - ansible-galaxy install SimpliField.packages
+  - ansible-galaxy install SimpliField.mongo SimpliField.packages
 
 
 script:
