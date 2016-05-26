@@ -1,4 +1,4 @@
-Mongo replica set [![Build Status](https://travis-ci.org/SimpliField/ansible-mongo-replica-set.svg?branch=master)](https://travis-ci.org/SimpliField/ansible-mongo-replica-set)
+Mongo replica set [![Build Status](https://travis-ci.org/SimpliField/ansible-mongo-replica-set.svg?branch=master)](https://travis-ci.org/SimpliField/ansible-mongo-replica-set) [![Ansible Role](https://img.shields.io/ansible/role/9903.svg?maxAge=2592000)](https://galaxy.ansible.com/SimpliField/mongo-replica-set)
 =========
 
 Setup mongo replica set
