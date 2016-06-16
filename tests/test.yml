@@ -4,5 +4,7 @@
   roles:
     - role: ansible-mongo-replica-set
       mongo_interfaces: [0.0.0.0]
+      mongo_replication_set: "rs0"
+
   tasks:
     - mongodb_replica_set: state="initiated"
