@@ -20,6 +20,6 @@ galaxy_info:
 
 dependencies:
 - SimpliField.mongo
-- role: SimpliField.packages
+- src: SimpliField.packages
   packages:
   - python-pymongo
