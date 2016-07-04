@@ -19,5 +19,7 @@ galaxy_info:
     - replication
 
 dependencies:
-  - { role: SimpliField.mongo }
-  - { role: SimpliField.packages, packages: [python-pymongo] }
+- SimpliField.mongo
+- role: SimpliField.packages
+  packages:
+  - python-pymongo
